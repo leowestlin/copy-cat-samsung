@@ -1,0 +1,732 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  vertical-align: top;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+/*Main-navbar*/
+
+.nav-1 {
+  display: flex;
+  background-color: white;
+  height: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0%;
+}
+
+.logo {
+  width: 125px;
+  height: 35px;
+  margin-right: 3vw;
+  margin-left: 10.5vw;
+  margin-top: 10px;
+}
+
+.rightul {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 6.8vw;
+}
+
+.leftul {
+  display: inline-flex;
+  flex-direction: row;
+  float: left;
+}
+
+.nav-1 li {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+}
+
+.lefttext {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  padding: 0 8px;
+}
+
+.righttext {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+.lefttext:hover {
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.righttext:hover {
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.iconul {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+}
+
+.material-icons {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  padding: 0 8px;
+  padding-top: 11px;
+}
+
+/*Main-navbar slut*/
+
+
+
+
+
+
+/*Slide show*/
+.slideshow-container {
+  display: flex;
+  position: absolute;
+  width: 75%;
+  z-index: -10;
+  margin-left: 13%;
+  margin-top: -1%;
+}
+
+.slide {
+  position: absolute;
+  justify-content: center;
+  width: 100%;
+  transition-delay: 1s;
+  justify-content: center;
+}
+
+.slide img {
+  width: 100%;
+}
+
+.titel-slide {
+  margin-top: 13%;
+  margin-left: 17%;
+  z-index: 100;
+  margin-bottom: -20%;
+  color: grey;
+  font-size: 300%;
+}
+
+.köp-slide{
+  padding: 1%;
+  font-size: 40%;
+  background-color: grey;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+/*Andra navbar*/
+.nav-2 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: white;
+  margin-bottom: 3%;
+}
+
+.nav-2 li {
+  float: none;
+}
+
+.nav-2 li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.nav-2 li a:hover {
+  text-decoration: underline;
+}
+
+h2 {
+  text-align: center;
+  margin-top: 35%;
+  font-size: 300%;
+}
+
+
+
+
+
+
+/*Erbjudanden*/
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2%;
+  margin-right: 0%;
+}
+
+.side-image-right {
+  width: auto;
+  height: auto;
+}
+
+.side-image-left {
+  width: auto;
+  height: auto;
+  margin-left: 43%;
+}
+
+.side-image-right img {
+  border-radius: 10%;
+}
+
+.side-image-left img {
+  border-radius: 10%;
+}
+
+.main-image {
+  grid-column: 2 / 3;
+  grid-row: 1 / span 2;
+  width: auto;
+  height: auto;
+}
+
+.main-image img {
+  border-radius: 5%;
+}
+
+
+
+
+
+
+/*Stora bilder erbjudanden*/
+.nav-3 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.nav-3 li {
+  float: none;
+}
+
+.nav-3 li a {
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.nav-3 li a:hover {
+  text-decoration: underline;
+}
+
+.nav-3 h2 {
+  position: relative;
+  text-align: center;
+  font-size: 300%;
+  z-index: 100;
+  margin-top: 7%;
+}
+
+
+.stor-bild {
+  position: absolute;
+  z-index: -10;
+  justify-content: center;
+  margin-left: 13%;
+  margin-top: -2%;
+}
+
+.nav-3 p {
+  font-size: 400%;
+  margin-top: 23%;
+  text-align: center;
+  margin-bottom: -30%;
+}
+
+.nav-3 .köp {
+  text-align: center;
+  margin-left: 47%;
+  padding: 1%;
+  font-size: 100%;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-top: 32%;
+  margin-bottom: -60%;
+}
+
+
+
+
+
+.nav-4 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  z-index: 100;
+  background-color: transparent;
+  margin-top: 0%;
+}
+
+.nav-4 li {
+  float: none;
+}
+
+.nav-4 li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.nav-4 li a:hover {
+  text-decoration: underline;
+}
+
+.nav-4 h2 {
+  position: relative;
+  text-align: center;
+  font-size: 300%;
+  z-index: 100;
+  color: white;
+  margin-top: 10%;
+}
+
+.stor-bild-2 {
+  position: absolute;
+  z-index: -10;
+  justify-content: center;
+  margin-left: 13%;
+  margin-top: -7%;
+}
+
+.nav-4 p {
+  font-size: 400%;
+  margin-top: 17%;
+  text-align: center;
+  color: white;
+}
+
+.nav-4 .köp {
+  text-align: center;
+  margin-left: 47%;
+  padding: 1%;
+  font-size: 100%;
+  border: 1px solid grey;
+  border-radius: 30px;
+}
+
+
+
+
+
+
+
+.nav-5 {
+  margin-top: -3.5%;
+}
+
+.nav-5 ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+  overflow: hidden;
+  z-index: 100;
+  background-color: transparent;
+}
+
+.nav-5 li {
+  float: none;
+}
+
+.nav-5 li a {
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 150%;
+}
+
+.nav-5 li a:hover {
+  text-decoration: underline;
+}
+
+.nav-5 h2 {
+  position: relative;
+  text-align: center;
+  font-size: 300%;
+  z-index: 100;
+  color: white;
+  margin-top: 10%;
+}
+
+.stor-bild-3 {
+  position: absolute;
+  z-index: -10;
+  justify-content: center;
+  margin-left: 13%;
+  margin-top: -5%;
+}
+
+.nav-5 p {
+  font-size: 400%;
+  margin-top: 20%;
+  text-align: center;
+  color: white;
+}
+
+.nav-5 .köp {
+  text-align: center;
+  margin-left: 47%;
+  padding: 1%;
+  font-size: 100%;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-top: -2%;
+  margin-bottom: 4%;
+}
+/*Stora bilder erbjudanden slut*/
+
+/*Rekomenderade*/
+.rek .h {
+  margin-left: 37%;
+  font-size: 300%;
+}
+
+.grid-rek {
+  margin-top: 3%;
+  display: grid;
+  justify-content: center;
+}
+/*Rekomenderade slut*/
+
+
+/*World expo*/
+.expo {
+  display: grid;
+  justify-content: center;
+  margin-top: 2%;
+  z-index: -10;
+}
+
+.text-expo .a {
+  font-size: 370%;
+  font-weight: 1000;
+  z-index: 100;
+  margin-top: -30%;
+  text-align: center;
+  color: white;
+  line-height: 1;
+}
+.text-expo .b {
+  font-size: 170%;
+  font-weight: 500;
+  z-index: 100;
+  text-align: center;
+  color: white;
+  margin-top: -1%;
+}
+
+.text-expo .c {
+  font-size: 140%;
+  font-weight: 10;
+  z-index: 100;
+  text-align: center;
+  color: white;
+}
+.text-expo .köp {
+  text-align: center;
+  margin-left: 47%;
+  padding: 0.5%;
+  font-size: 100%;
+  background-color: transparent;
+  color: white;
+  border: 1px solid grey;
+  border-radius: 30px;
+  margin-bottom: 4%;
+}
+
+/*World expo slut*/
+
+
+
+
+
+
+/*#Do what you cant*/
+.h-dowhatyoucant {
+  text-align: center;
+  margin-top: 10%;
+  font-size: 300%;
+  font-weight: bold;
+  margin-bottom: 3%;
+}
+
+.bild-do {
+  width: 100%;
+  display: grid;
+  justify-content: center;
+  margin-left: -17%;
+}
+
+.bild-do-bild {
+  border-radius: 5%;
+}
+
+.nav-6 ul{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin-right: 13%;
+  margin-top: -33%;
+  text-align: left;
+  list-style-type: none;
+}
+
+.nav-6 li a :hover {
+  border-top: 2px solid black;
+  text-decoration: none;
+}
+
+
+.nav-6 p {
+  margin-top: -3%;
+  font-size: 120%;
+  margin-left: 5%;
+  font-weight: bold;
+}
+
+.nav-6 li a {
+  color: black;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 130%;
+}
+/*#Do what you cant slut*/
+
+
+
+
+
+
+
+/*Footer*/
+footer {
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+
+.footer-h {
+  font-weight: bold;
+  font-size: 300%;
+}
+
+.search-bar {
+  margin-left: 38%;
+  margin-top: 1.5%;
+  padding: 0.7% 8%;
+  border-radius: 20px;
+  background-color: rgb(230, 230, 230);
+  border: 1px solid black;
+}
+
+.flex-box-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 0.3%;
+}
+
+.flex-box-footer p {
+  border: 1px solid grey;
+  border-radius: 20px;
+  padding: 0.2%;
+  margin: 0.3%;
+  color: rgb(34, 34, 34);
+}
+
+.footer-text {
+  margin-left: 17%;
+  line-height: 200%;
+  font-size: 80%;
+}
+
+.footer-grid {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1%;
+}
+
+.footer-column {
+  padding: 0% 2%;
+  border: 1px solid rgb(216, 216, 216);
+  text-align: left;
+  border-left: 0;
+}
+
+.footer-column-slut {
+  padding: 0% 5%;
+  border: 1px solid rgb(216, 216, 216);
+  text-align: left;
+  border-right: 0;
+  border-left: 0;
+}
+
+.footer-column h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.footer-column-slut h1 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.footer-column-slut p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.rights  {
+  display: flex;
+}
+
+.rights p {
+  float: left;
+  margin-left: 14%;
+}
+
+.rights img {
+  margin-left: 50%;
+}
+
+
+
+.nav-footer {
+  display: flex;
+  background-color: white;
+  height: 80px;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 0%;
+}
+
+
+.nav-footer .rightul {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  margin-left: 10vw;
+}
+
+.nav-footer .leftul {
+  display: inline-flex;
+  flex-direction: row;
+  float: left;
+  margin-left: 12%;
+}
+
+.nav-footer li {
+  display: inline-flex;
+  list-style: none;
+  align-items: center;
+  padding: 0px 10px;
+}
+
+.nav-footer .lefttext {
+  list-style: none;
+  text-decoration: none;
+  color: black;
+  width: auto;
+  padding: 0 15px;
+  font-size: 90%;
+}
+
+.nav-footer .righttext {
+  color: black;
+  list-style: none;
+  text-decoration: none;
+  padding: 0 8px;
+}
+
+.nav-footer .lefttext:hover {
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.nav-footer .righttext:hover {
+  border-radius: 16px;
+  background-color: black;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  color: white;
+}
+
+.nav-footer .iconul {
+  display: inline-flex;
+  flex-direction: row;
+  float: right;
+  margin-left: -3%;
+  margin-top: -0.03vh;
+}
+
+.footer-icon {
+  display: flex;
+  align-items: center;
+  margin-top: 0.3%;
+  margin-left: -3%;
+}
+
+.footer-icon img {
+  padding: 0px 5px;
+}
+/*Footer slut*/
